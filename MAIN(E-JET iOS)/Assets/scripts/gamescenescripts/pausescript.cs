@@ -11,10 +11,9 @@ public class pausescript : MonoBehaviour
     public static pausescript instance;
     public Animator anim;
 
-   
     public void Awake()
     {
-        ispaused = true;
+        ispaused = false;
         if(instance==null)
         {
             instance = this;
@@ -28,19 +27,19 @@ public class pausescript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape)&&ispaused)
+        if(ispaused)
         {
-
-            //admanager.instance.showinterstitialad();
             Time.timeScale = 0f;
             pause.SetActive(true);
             anim.SetBool("ispaused", true);
-           
         }
+    }
+    public void setpause()
+    {
+        ispaused = true;
     }
     public void resume()
     {
-        
         pause.SetActive(false);
         Time.timeScale = 1f;
         audiomanager.instance.play("click");
@@ -49,6 +48,6 @@ public class pausescript : MonoBehaviour
     {
         audiomanager.instance.play("click");
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     }
 }

@@ -7,7 +7,7 @@ public class scorecounter : MonoBehaviour
 {
     // Start is called before the first frame update
     public static scorecounter instance;
-    private float score;
+    private float score=0;
     public Text scoretext;
     public Text highscore;
      void Awake()
@@ -28,8 +28,8 @@ public class scorecounter : MonoBehaviour
     {
         if (spawner.instance.stopspawning == false)
         {
-            score += Time.deltaTime;
-            score = Mathf.Round(score * 100f) / 100f;
+            score =score+ Time.deltaTime;
+            score = Mathf.Round(score * 1000f) / 1000f;
             scoretext.text = score.ToString();
             if(score>PlayerPrefs.GetFloat("highscore",0))
             {
