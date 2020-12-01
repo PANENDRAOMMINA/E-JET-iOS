@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - rocket
+  - round rocket
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: backland
+    uniqueID: 720334725
+    locked: 0
+  - name: frontland
+    uniqueID: 1235070893
+    locked: 0
+  - name: BG
+    uniqueID: 1635682477
+    locked: 0
+  - name: pole
+    uniqueID: 2245119193
+    locked: 0
+  - name: player
+    uniqueID: 1819015063
+    locked: 0
+  - name: rocket
+    uniqueID: 1148934333
+    locked: 0
+  - name: scoreboard
+    uniqueID: 654199681
+    locked: 0
+  - name: UI
+    uniqueID: 622891925
+    locked: 0
