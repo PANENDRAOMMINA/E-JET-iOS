@@ -1218,7 +1218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.2, y: -2214}
+  m_AnchoredPosition: {x: 259.2, y: -2151}
   m_SizeDelta: {x: 652.1, y: 290.77795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624159096
@@ -1253,8 +1253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SPECIAL THANKS TO\n\nYOU TUBER\nVAIBHAV CHAVAN UND3RDOGS\n\nINSTAGRAM
-    PROFILE:\nSINGLE MARK DESK \n\n"
+  m_Text: "\n\nINSTAGRAM PROFILE:\nSINGLE MARK DESK \n\n"
 --- !u!222 &624159097
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2984,10 +2983,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6912c1bf0847db644a194409484af4b8, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0

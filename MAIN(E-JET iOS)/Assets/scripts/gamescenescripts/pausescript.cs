@@ -41,11 +41,13 @@ public class pausescript : MonoBehaviour
     public void resume()
     {
         pause.SetActive(false);
+        ispaused = false;
         Time.timeScale = 1f;
         audiomanager.instance.play("click");
     }
     public void menu()
     {
+        ispaused = false;
         audiomanager.instance.play("click");
         Time.timeScale = 1f;
         SceneManager.LoadScene(4);
